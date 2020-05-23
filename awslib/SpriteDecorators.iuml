@@ -1,0 +1,60 @@
+
+'=============================DECORATORS==================================
+' We define 1 or more sprite decorators in stdlib
+' Define our decorators that we know now - and can easily define new ones in future,
+' with as many new parameters as we want, that we don't even know about yet.
+'
+'ref https://plantuml.com/preprocessing iuml
+'---------------------------------------------------
+
+
+@startuml(id=SPRITEDECORATOR_1)
+
+!unquoted procedure $SpriteDecorator($MySprite, $alias, $description="", $label="", $technology="", $scale=1, $colour="red")
+
+rectangle $alias as "
+<<$alias>>
+$label
+<color:$colour><$MySprite*$scale></color>
+//<size:12>[$technology]</size>//
+
+  $description"
+!endprocedure
+
+@enduml
+
+
+
+'add a new shape parameter
+'---------------------------------------------------
+@startuml(id=SPRITEDECORATOR_2)
+
+!unquoted procedure $SpriteDecorator($MySprite, $alias, $description="", $label="", $technology="", $scale=1, $colour="green", $shape="node")
+
+$shape $alias as "
+<<$alias>>
+$label
+<color:$colour><$MySprite*$scale></color>
+//<size:12>[$technology]</size>//
+
+  $description"
+!endprocedure
+
+@enduml
+
+'add a new shape parameter + a textsize parameter
+'---------------------------------------------------
+@startuml(id=SPRITEDECORATOR_3)
+
+!unquoted procedure $SpriteDecorator($MySprite, $alias, $description="", $label="", $technology="", $scale=1, $colour="blue", $shape="cloud", $textsize="18")
+
+$shape $alias as "
+<<$alias>>
+$label
+<color:$colour><$MySprite*$scale></color>
+//<size:$textsize>[$technology]</size>//
+
+  $description "
+!endprocedure
+
+@enduml

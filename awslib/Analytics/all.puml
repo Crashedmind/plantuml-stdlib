@@ -1,5 +1,4 @@
-'Copyright 2019 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-'SPDX-License-Identifier: MIT (For details, see https://github.com/awslabs/aws-icons-for-plantuml/blob/master/LICENSE)
+
 
 sprite $Analytics [64x64/16z] {
 xTK5WiGW38NXbn1WGkv_tjMwDwml__YqNrtmNRK8tISXfBj5W4UVhDpBTExBtVweRxvv5TfCz9eNnCqWrpo9bOrCwAelc_bzJYdNU0QWvlTAe0glJ14-tt7L
@@ -7,11 +6,11 @@ w5d_h6yBJ-hR_W9wMCSTNf0OiUFtVCUj23f-smjojmbSNiR_7BwRkz-dN7l-k7pz-IyXWC9cX13ap3Cu
 KU_sc7b77-V1mHEFioLN-0iz0m
 }
 
-AWSEntityColoring(Analytics)
-!define Analytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Analytics, Analytics)
-!define Analytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Analytics, Analytics)
-!define AnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Analytics, Analytics)
-!define AnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Analytics, Analytics)
+!unquoted procedure $ANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$Analytics", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
+
 
 sprite $Athena [64x64/16z] {
 xPJPkkGW28GBMKtU_tsd5TFC5h-SSpFhVzMBG54en-_9V_xJmytSurF1BWqBOkiVZBOHt4JDL9W0I7macW3sgXbAW3pLq7cK-p4b-QFm8BIABXJGP-5ouoX1
@@ -23,11 +22,11 @@ _y8iwdbhdoieYulJKGdysE64ziE9BkN1VWPvjbcUgHNShixEV44xWZ42F5wu2G5anxayEFDfxmbjU4Fi
 _lEVBm
 }
 
+!unquoted procedure $ATHENA ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$Athena", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(Athena)
-!define Athena(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Athena, Athena)
-!define Athena(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Athena, Athena)
-!define AthenaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Athena, Athena)
-!define AthenaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Athena, Athena)
 
 sprite $CloudSearch [64x64/16z] {
 xPK5bgH040L_kd3_yuxLU4CzP7qxdhMGaK99_u7SkLDFz5b2cG0GMvx8R2DMNXpiHtCJe553vGBmeHeKqEeFKW3ltGZeUpe7R7zshXvKkeysalPMu1_XHdX6
@@ -37,11 +36,11 @@ S1MDbJVbe_PG_eHa2upt28fWguELhbs2N16KWEkbBTqbuFn-dpo7xnMK0Ffkg12C9RTRq4u0gNcu2G5C
 z1M1m_kAG91zKg3TRU3kim9Y0cMVf9H0KdsUgke_XZjt7W4
 }
 
+!unquoted procedure $CLOUDSEARCH ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$CloudSearch", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(CloudSearch)
-!define CloudSearch(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearch(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearchParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearch, CloudSearch)
-!define CloudSearchParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearch, CloudSearch)
 
 sprite $CloudSearchSearchDocuments [64x64/16z] {
 xPS5bWD120K_j07tl-yAgncXUIyk5HcjTiNfe3pOeAibqO4DXgMHRLzR2hMnuoE5FBBV9AJD_AvnpS_yEaBgGvO_oo0GCr8m4sW8uvTcfWLEcPMVKzIi7VW_
@@ -50,11 +49,11 @@ YxggdlOydeUAFse1Qcz8qNe5IiM2eOeKghBV_ubB0FDq_BIGSJu_d_w7dZyf9lRd_UVCzJSTFuuglzVw
 Tm
 }
 
+!unquoted procedure $CLOUDSEARCHSEARCHDOCUMENTS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$CloudSearchSearchDocuments", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(CloudSearchSearchDocuments)
-!define CloudSearchSearchDocuments(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
-!define CloudSearchSearchDocuments(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
-!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
-!define CloudSearchSearchDocumentsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, CloudSearchSearchDocuments, CloudSearchSearchDocuments)
 
 sprite $DataPipeline [64x64/16z] {
 xTG5WgHG30JGoeydzp_lIlj8s1qtNWjMXKDDThjTvelQ373Miosi1QxdYCXsS1SZEYEUlkDa334NiD5J3qEm13TuGUe9YBB2BhoAa4_OVL3TivxIhmMD1I80
@@ -63,11 +62,29 @@ nfBHEaM6_f7to74mzSNT1SGZEaKsZj-mwH0P-yV_79qZs_skGVzVlqQVlh_tNtxzQOte57cZ-ryZGc6L
 ri7J8qu0oElawP6CoDgMSSdiThlV
 }
 
+!unquoted procedure $DATAPIPELINE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$DataPipeline", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(DataPipeline)
-!define DataPipeline(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DataPipeline, DataPipeline)
-!define DataPipeline(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DataPipeline, DataPipeline)
-!define DataPipelineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DataPipeline, DataPipeline)
-!define DataPipelineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DataPipeline, DataPipeline)
+
+sprite $DatalakeResourceIcon [64x64/16z] {
+lLS7cgum27maeTx_mEzZ4joYMTsQhRzaHW83uh-VNAqFKRMrL7XqUWYbpkPniLovtQAx75WtqrncxiSrQH-YhUxK6xtsYTfWdIowPI1DkutjXiRWbmtSR_m3
+XUGjw0fk4KeFKfFxBgvpENQxDAAVhthuqmpxbGEu-6pPx-2zFOFtkCQ7ZoTmZWqUug6Rs0sB7TuTsjrJjA7Oiei_YPV-HtjT0DJweNzdsiUVS8Urt0shoczv
+TvC_whAj_quhVtQJ_wnN4HI_gWhpU7qSy-_fXuY-WSVwIxoijY1kisw7kKn1g6kRDjlZrMsL_IpyKKsCe2PAUCGE3oC3vH46b7io0GMc1b7Qlbzu9jr98aRM
+psXP0XHXP164ZkIuo-KQ4TmZ10Ym9Q99Ef7NKT2-x-qqzTZAOvuU1posPVFOT_-U9YucGr0c2ao8WOVff128zIs1wfYkYCeq3jM-agYyyj_4grWCgX-ZVKO_
+v-f3KTUMmoqgLcfqRkhKXgYv5rwz0stXl8GO1bptc3QoSrCYQWrTICEf0ZrM0mr3w2g8jjSVzWj-goSJPNJ0f17vZVpO5WzsoluA8MNcEgLQKuGG4hIvnqDZ
+d53AyoOqIKP2GJBImIs-ZkwqZXwZ9AbLba4VufkZTDTkWNmcus8QD_s7k6QlmNrnCjDh6uxrZUNR-QErUlRr2cYdPHfbwxvzVAgF9RRGcfIyrQEOLu1y3OYT
+JlY8LX6NYhXNMIEk3ltnv32CZ_HsNa0NX91QXEK7f9MXv1H0nf-6ldbwgaeva8g3aF09QiGdD34l_PqAs76wz0b9jl2iWraJbaHKtYnyZUyyv_Tv3LvPdVXj
+D0ItsUll7F5HaZp8lM_rTyfuFpBU3c_fRv-_hFmjlBjTuUqxypFqzNX-7vUi8NIF9esmNPDnlc5edBlescRtyokwtdP35Q2StzywgqtZs7jN1RX_VzJ-0Vfc
+VZLv-XACUVlj-pCEz9lhFm
+}
+
+!unquoted procedure $DATALAKERESOURCEICON ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$DatalakeResourceIcon", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
+AWSEntityColoring(DatalakeResourceIcon)
 
 sprite $DenseComputeNodeResource [64x64/16z] {
 nPS7ZWCX34NNuFhlV-0DnD8qaUOjFxqyZIlWhzyMRVe4TsmAUXidxDK_uKtkqWzvphVjGrxoRGTQaTSY3wCQZ-WLFW1e9VuCmDiRl07Q-fIC_FLunmTodEkF
@@ -77,11 +94,11 @@ Y_lNZX_NjjiJ8sXHOGq8tyVxmDjuylbOLQXa5bOytrY5BVdXGT2lyOFzpFwCNq2omp-8dujFutmaoEZj
 wsTz_Qxk7-Nzgxv_LlVlulcXS7ufdP-AvxVQ-P5gvzT_F3_3w5_dXrQQd_vdVjkhL-VNulpy2_e6
 }
 
+!unquoted procedure $DENSECOMPUTENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$DenseComputeNodeResource", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(DenseComputeNodeResource)
-!define DenseComputeNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
-!define DenseComputeNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
-!define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
-!define DenseComputeNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseComputeNodeResource, DenseComputeNodeResource)
 
 sprite $DenseStorageNodeResource [64x64/16z] {
 nPS7Zjmm34L5YVNV_y1PUGYumSROJB9_UdamgoIsVorQzGPth0fwZ1Es6czuau_q9S_vjh_a9TyEe1TvBV8mgl68KU43W5RYpm2S7l06Q1-B11Xjn1CVo76i
@@ -91,11 +108,11 @@ W2DFk1MjrPiwysuNykGfhnp6Z3FFDnL42I-oQSSX_jcXLt6KX8rxB0q43Ff8TloO9R6OnkREoIFDfbm0
 BVHFhNyBwqTv_Qgld_Nrkxf_bFUl-lvPtR-BvuV2-QLqVYgUtshdnruxl_xY-Hb6lpe_zDByz3lpsrQZEhyMv-T_e3y
 }
 
+!unquoted procedure $DENSESTORAGENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$DenseStorageNodeResource", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(DenseStorageNodeResource)
-!define DenseStorageNodeResource(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResource(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
-!define DenseStorageNodeResourceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, DenseStorageNodeResource, DenseStorageNodeResource)
 
 sprite $EMR [64x64/16z] {
 xLQ7jfqm39CTx_p___OGxke8j-Hr5vt1b17UzGVZmeLqYrg7043BLNe3gJ9uqO3lJ86kglVjaE1LVknyMkChh5TLeAtn0-HLmV0rVXB0ZEVdNKNpJFWQ0mH-
@@ -105,11 +122,11 @@ KMVznvOF-S_qE1K_rgWHlsAeD8awaJ-XF4mu8RjZGEjK_eRna17Lq2ADu6Vh9nMuzx4Uut2gVhj2NG2h
 -dSoDkZo_2XhBB4slzRdPpBy5y_l-Vwmlh-ixqyD-l7zxUFxu_h--eVYmeLF
 }
 
+!unquoted procedure $EMR ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMR", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMR)
-!define EMR(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMR, EMR)
-!define EMR(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMR, EMR)
-!define EMRParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMR, EMR)
-!define EMRParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMR, EMR)
 
 sprite $EMRCluster [64x64/16z] {
 nPS7SaCX30M_6fBU_G-SaOt73AHXKZR5TUb5kduRUlAA7dYIj5yxHkGLt-rEUz7N_fHVzAq_5O0F_NRem-dCHyg9dm3QoVWhWA0Dtu76SiDg_YHt-a21UVsH
@@ -119,11 +136,11 @@ VsmszGEWwX_ezLyJvK_oOmw-wsEMYm34WBGxAjU7Vb7oF8aPlR-T3_sI5wpFmjT-V7YT9XtxlzR-y_4x
 4ZarW6pZ_Au7P5EccqgiLSl6_N5PeiWRk96sSNzTP861TAMT-xCWqTRgJLEXZVlxF7uuZr_EuwVp-EqyVZoFNty_VeRJl-OFV9G__K_-DYAd-UjX_lmBl04
 }
 
+!unquoted procedure $EMRCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMRCluster", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMRCluster)
-!define EMRCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRCluster, EMRCluster)
-!define EMRCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRCluster, EMRCluster)
-!define EMRClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRCluster, EMRCluster)
-!define EMRClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRCluster, EMRCluster)
 
 sprite $EMREngine [64x64/16z] {
 xTPbOeGm40NWYOoz-n-uXM5fo2fIvrlvnICkTB3JIMr9Q9M4Zj4wekz47IuwODh48BI7GRydppO2t4QLLb7qc5R8W6kOnu5MA42X5WFffO83z_aAb3n8T946
@@ -132,11 +149,11 @@ _URotSptvCFsl8dej_RVBycV-HIc_EhzJnm3hv4_QF_pQVzNqPPawXciCY_tNn8fyRAUtBdHM5l-hDeI
 3Qbzt6cKSYabfwVJgnaJKGTGQ0LsB7cXLR9OYnCTwtHw0m
 }
 
+!unquoted procedure $EMRENGINE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMREngine", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMREngine)
-!define EMREngine(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngine, EMREngine)
-!define EMREngine(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngine, EMREngine)
-!define EMREngineParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngine, EMREngine)
-!define EMREngineParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngine, EMREngine)
 
 sprite $EMREngineMapRM3 [64x64/16z] {
 xTQ9akew38JXbYLPwdx_1xx7E5Gb51IptVryC-pyYDK9VjXllrLVJNoAwK7ZSsRzCelYh2Nn9Qs9xsZLtzDdtqZSPmAVKdgK-8GXiGxtpm6Vu9BZB2NxqE0j
@@ -147,11 +164,11 @@ uTFzrJ-iZti_SfrTHoUPCsoVCI3IRCxCf_E3t4TdrB4GaG6ZV93IkMStToyvMWsBT2161C36rDWFTFou
 ko7nc1CtDjnzsDlbzVIPpA8anoSaTKN7fupPPsduMR_zzWS
 }
 
+!unquoted procedure $EMRENGINEMAPRM3 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM3", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMREngineMapRM3)
-!define EMREngineMapRM3(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
-!define EMREngineMapRM3(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
-!define EMREngineMapRM3Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
-!define EMREngineMapRM3Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM3, EMREngineMapRM3)
 
 sprite $EMREngineMapRM5 [64x64/16z] {
 xTO7Sfr048JXtidJzp-m2nPAGA60v6n_BuUVdF3R-MzSuPdcMUAHSUqBp_ZKB5yPFgMO-8fYV6K5I3F7wccTpQCEF5Ay2ZoWPFfHiyUpNd3av4TwiIb8nP6H
@@ -162,11 +179,11 @@ ARZhpmO3RtY_xw_r6Dzx_nawtVQ6T-LRnv_uxF6lVVxKPwMuAfQgzjRRsiDiEwbSvKqVSoY7u_zE8a_k
 AZ86fbcHXMaiy3ObJ-ja-IHuG8jd9NZ68b-4uY_ptt_V
 }
 
+!unquoted procedure $EMRENGINEMAPRM5 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM5", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMREngineMapRM5)
-!define EMREngineMapRM5(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
-!define EMREngineMapRM5(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
-!define EMREngineMapRM5Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
-!define EMREngineMapRM5Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM5, EMREngineMapRM5)
 
 sprite $EMREngineMapRM7 [64x64/16z] {
 xTQ7ql8s58JXbKxTlVyBJeJmZ4rW-5hw_z3BEuSg6p_ibr-ghnAVClIWyJbPlykYcBK4lgIL-8vM_Jrzz8t4ld5yIkbHu1EcnBexlWTyWac6iv36XmPlyTYx
@@ -177,11 +194,11 @@ lEVp_ceeySfVqSFcv_htnlQqTxoLr4BV_G-jVxol_vLrblFP-kiHr_KNcViVzGVvOe-cB_CFtbTIlTX-
 ucPCCvlZxV9w-awoACdm2K5TqV0fC_ii1dxMBx_y1W
 }
 
+!unquoted procedure $EMRENGINEMAPRM7 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM7", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMREngineMapRM7)
-!define EMREngineMapRM7(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
-!define EMREngineMapRM7(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
-!define EMREngineMapRM7Participant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
-!define EMREngineMapRM7Participant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMREngineMapRM7, EMREngineMapRM7)
 
 sprite $EMRHDFSCluster [64x64/16z] {
 nPU7pi8m38HnbkDx_mV-LJ1gvFmfq6ES1lDJFHAFowSbkyxW7RjCNiO5e_8PNkjDxIHV_6qwoLT_cu54yetaeSBniCpm1g0nyIy0-YjHLA2bV5NTyfVj5H-a
@@ -190,11 +207,11 @@ osf0v0N_IQU0uAwPxnfaWHT_icafcFao5rsTOBSgnVZx3OryXBKakruW8CjDzOWFPeiNW34EEE1RXEyv
 _R9ifoOVu0dxgVYn-QFE3tj-oVj3tr-YVj3rYw-VVFrc-mVTl_Z-oVPlSduWvXTgVYBdDsv-56v-_U7y39MVxW-9sfz-ix-Dokp-IkxF7z0V
 }
 
+!unquoted procedure $EMRHDFSCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$EMRHDFSCluster", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(EMRHDFSCluster)
-!define EMRHDFSCluster(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
-!define EMRHDFSCluster(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
-!define EMRHDFSClusterParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
-!define EMRHDFSClusterParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, EMRHDFSCluster, EMRHDFSCluster)
 
 sprite $ElasticsearchService [64x64/16z] {
 xTQ7hkKW38JX0Opj6Tx_VLS9X-ZcRWdQtdwrj2-zwI_kV_-ZjLVyAfzOnLTwur7_UZyaZM_mEZgyh_WrFebLVAMlSMJm1yHQPfKttyvJuOy-W9C3UVSwsl5T
@@ -204,11 +221,11 @@ Y3sVw8C5TkSC87Qzn88QcaL5IIc0sFPY0ufvk5K0JPeh6B7ffMYODI-mQmLzrsiml7jGr-bm8CHDturQ
 _ylh78p-ET-yz-uLZ3Lu-7eEDiGy1uo2_9GFh9XOaLWTYFKOwlfayIflWxc6TSJUMkWlwN__-m
 }
 
+!unquoted procedure $ELASTICSEARCHSERVICE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$ElasticsearchService", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(ElasticsearchService)
-!define ElasticsearchService(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ElasticsearchService, ElasticsearchService)
-!define ElasticsearchService(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ElasticsearchService, ElasticsearchService)
-!define ElasticsearchServiceParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ElasticsearchService, ElasticsearchService)
-!define ElasticsearchServiceParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ElasticsearchService, ElasticsearchService)
 
 sprite $Glue [64x64/16z] {
 xT57ejim38JX0L48ZEv_trWbJIiABpt-R4chdvL_hhUtZ8Z9Fi7BP9j8wCTwUg-l5r8WlVKRNe8sNehFANJ0sQPWtlhM_6Mgwitzpus9NV6nofTYmZWUzZLT
@@ -217,11 +234,11 @@ TJuXcFp6XF29Uo2OVCRWj-qyKuAy7UUo-uKDJ3wdS1uSoeO2ybmzYXq1FTSHxBZsFJ7O59ZRDX7ztZFz
 IDNnOKCEI1wVaUmeXMGEQB79yMBi2y3v4PdySxszVG8
 }
 
+!unquoted procedure $GLUE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$Glue", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(Glue)
-!define Glue(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Glue, Glue)
-!define Glue(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Glue, Glue)
-!define GlueParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Glue, Glue)
-!define GlueParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Glue, Glue)
 
 sprite $GlueCrawlers [64x64/16z] {
 xPM7aYKX20055QJ__tylKCoLMpUtxbnENS7O1kJDctmBtXRVGiWYp6o1ssDM-gkrra7ROspt-v_fV_lzGqG6T7bC-X0H0F4OqlyU-UDx_YpufloP8D_oVi_z
@@ -232,24 +249,24 @@ RuX63ho6WsiTV_S5hCTX-_hO0RRxILJ_2N60-Pc_THzGWt7dJsrlGk_zQEtd-7B5IHt2PFlPdDXt5IE9
 EtVTerXwr7EVLN4hr06R0I77q37hPxIX49cQfo2Ecc7iCsLLHYoGG-wwf15Rl7LTgtMtyazeW6UqP0PuUqXzSyqyIFqnuYyVyZbg0R66j9tt
 }
 
-AWSEntityColoring(GlueCrawlers)
-!define GlueCrawlers(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlers(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlersParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueCrawlers, GlueCrawlers)
-!define GlueCrawlersParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueCrawlers, GlueCrawlers)
+!unquoted procedure $GLUECRAWLERS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$GlueCrawlers", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
 
-sprite $GlueDatacatalog [64x64/16z] {
+AWSEntityColoring(GlueCrawlers)
+
+sprite $GlueDataCatalog [64x64/16z] {
 rPU5aYj124M1nl__VoDTFDbUQJQUKn8zTIz4PWPEIEG90epy5K5mHdD2GFbB-AnJPgY8uFcUIHijdpC7JAZkzS1_FhwMFtI7_EXBv0xyoUVOuVZA-oEM3NoN
 _VNz-D47tFAmxoyYqXd4N_l4wX5PHBZ9mAwFNoynRBHycdQugGYV457po3FIyJtJXTQPYIqpgUVRG5WXRVfSqwhmc31B3M2j_VaFNxsEpvck5l6_wUgPslpy
 VIOXqPWGOJtPzCSvQe7hkOuF_dVJIwUMNmNMU86T_qE1oC2sNmNM-AvV1N29x_jLO8bl--i6AhxlLm5Rufl-Mg3Y-_vQG9RudWzM1R3YU_vQeEBR_bfWniCb
 VXNWJBxC1qy7q0oyqBVouMtzD8tBVSc9NUh3i0WNwFeDNjrdts7tFN-sBIz-_M4RzBxxyostdNzSvbz__NhzzVErr-z7
 }
 
-AWSEntityColoring(GlueDatacatalog)
-!define GlueDatacatalog(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalog(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalogParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, GlueDatacatalog, GlueDatacatalog)
-!define GlueDatacatalogParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, GlueDatacatalog, GlueDatacatalog)
+!unquoted procedure $GLUEDATACATALOG ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$GlueDataCatalog", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
+AWSEntityColoring(GlueDataCatalog)
 
 sprite $Kinesis [64x64/16z] {
 xLPNWkKm21CTykv_tYs9_Sfqa-qx-ae3IuIs_H7un2VASro5LyFUOUEAqR6Fa_O96LU2wEWdggb4jmOKFZoXAM0ICF3MW5qZmFDg3Jo55uEp4SAR0m6iEWxc
@@ -258,11 +275,11 @@ kGRGOXxESyUb0j1OJsEG7vUf191whb7G6_Do0G0IyyXtnBZDgvIT-N0HneGTH7mWNYQkyuJ9_3kBo-Mo
 E-VNhNvagNx2FrQ_8XAz_j7iNr7j_acQlx9_5ztD3_9JyqkgCS3bvkZS_9Pp-mEjaPzMTvcyZhXg5kHlsFySth3lxw-_7v_un5S
 }
 
+!unquoted procedure $KINESIS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$Kinesis", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(Kinesis)
-!define Kinesis(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Kinesis, Kinesis)
-!define Kinesis(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Kinesis, Kinesis)
-!define KinesisParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Kinesis, Kinesis)
-!define KinesisParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Kinesis, Kinesis)
 
 sprite $KinesisDataAnalytics [64x64/16z] {
 xPO73kCm30INdPJ-_zz32W4XiPBuUXkKrA6NibN6Ry5__bEUztSHzHM-m-_l65_ZnpVw2Rs_4-HN-0MwlpFe-0eKtfM-iW6g3Y1V5w0r_he2t8qNW_EyNuGk
@@ -272,11 +289,11 @@ qKyY8blyxVmn0fvz1n6u_NVpjyQpxwFzBQMzyYs-crbyv3k1_77y4XSs_cxzzDMNf8s_NRzvAbA8Y2jX
 R_RlhV_k_41rtY-YvKa-uU_FJufitov-80OT-Blpcq91pZ23EC4LwY0zzlt8FsJJlrSdYMx9ZwdnM_2V_tm1
 }
 
+!unquoted procedure $KINESISDATAANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$KinesisDataAnalytics", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(KinesisDataAnalytics)
-!define KinesisDataAnalytics(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalytics(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
-!define KinesisDataAnalyticsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataAnalytics, KinesisDataAnalytics)
 
 sprite $KinesisDataFirehose [64x64/16z] {
 xPPNOYGn24GBX812zx_lTf3NsUvndl3-51xAeVu4DsxGyrE-et_AZpFt4_Ofdz3w509-ok-Vd03YqntGpmLedmp01lX7vOnj292USpYsS3oSesMDD01Y7fLO
@@ -285,11 +302,11 @@ h7hi3qFI8tBXPRyOlGacadpabo5JP2_tUYs0uewNV5MHL_sK1mD8djn_bzRNaZ6gcC77VkgSFwZvYpwv
 joVd-i_zg-PvyF1hvnfczbyp1C73vrUZ1ctlhPzyViFd_N6tFzqMuiGB49sVkZ_pz-vl0lpDzql0tto_0tRL_oV_f4zddHStRlm3
 }
 
+!unquoted procedure $KINESISDATAFIREHOSE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$KinesisDataFirehose", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(KinesisDataFirehose)
-!define KinesisDataFirehose(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
-!define KinesisDataFirehose(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
-!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
-!define KinesisDataFirehoseParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataFirehose, KinesisDataFirehose)
 
 sprite $KinesisDataStreams [64x64/16z] {
 xTO5mkCu30NW9zcYv_lVTnEdTHTAwV9Cln-AJYGP-P_mzLMUF4Jm0mxdGL4yB_va-qJdeI5vNa5M9iOFTFYwqaS9h6Q6zba0jmfqVa2lpKgXnTDArWKQu3oj
@@ -300,25 +317,26 @@ N23EgQYemTyP3d-wUDarYpxkXchmDzPl0_hea4rIPTCOiWFYSVE-uX0_5cFLB40LOEWEg3VshrOa4yfD
 R1l8cVD31n0KR9IENV2kahld5uNMg8ai0-pS-MdsH5qcK0VizFdD03HpwmfeV71-B1DCwdoil1wVNpFSe_ZVylNr2m
 }
 
+!unquoted procedure $KINESISDATASTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$KinesisDataStreams", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(KinesisDataStreams)
-!define KinesisDataStreams(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisDataStreams, KinesisDataStreams)
-!define KinesisDataStreams(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisDataStreams, KinesisDataStreams)
-!define KinesisDataStreamsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisDataStreams, KinesisDataStreams)
-!define KinesisDataStreamsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisDataStreams, KinesisDataStreams)
 
 sprite $KinesisVideoStreams [64x64/16z] {
-xPO7bkCm34F10bBtl_0MFpcKF0vdixqXlNmOL1-_XVxhlv8ntv7v5JpXyvqWVW4ViFbElufFo2pROUChPE2P1FbL1KYUJffV5K1dAVfL1YcmnpkDhpF8Cm7y
-nGZxTHsG5ntswuO1i7ZLmW7XuY36B_F8yzKgUL81GDGOaTdwqCTKw98ywOef4JqKj_ni-pLvJe-WcufWYdTyo2nyIsuU5JjFxUHMU6LBcW2pVdUMRlWgN3so
-FC9D1HTnF5EuuF1WvEeIf9TYD0fNUQGc8ouLzwhstbBB9lv0Viz_6xyf9bqEqkUW3z_LjrxOfVyST-9uFdwOIqn2-4OEv2qka79EgWq3ktLw5-5B8GBeCCJX
-jLVC9potPZ3coIiqxlb-_IWUK6R7brYDM3nrUkvyltvwyJcYKZLy2kInVil2pxh0ZU_t3-xyaI0wFdNTltAiFFNz_0RTZ8ftgHueljk_nxN_Ok__Rbmc95VU
-O3VZfpk_-5Zvp6RyDkUdhvq_YZmjuRpAWEnvGNRhXyGxvzTWROHygno_YVxhlpu2
+xPQ7rjiW34O_2RJC-xzl3mdMJmPrHdTpp_AwiiJU_WW-V0ZrSMKMB_WA7LUCLtnxqtVKSLNWhzGF6bUIaPwYGlT8BnP0GnEKbn98ZLyBm7lXmM1_tW_A00MG
+f_tvlmAGnfF-_5-l05LxVXY3TOz0FOJwqodmo3oq000LKVE3OYpRoxkqPnucJ3X1n6ViVk9r_24pxrcqrhPmargO26Vk-auW_Qh22k4KmoAsrZazFh4el08a
+COKGHeUuL16rv2R0N3YBJp5SAnEkq7NZ2v_RUpJtEUy8DrL9VFiEheNGwLchkKSyFmnD2kCBkiH-ef_vqyX_dVvn-pNNZipeEfnN06MQBu9xs7hyy4Lq0wbT
+8q0i5X-soIsbLLZhrssRQ8B5_96yTY6W-twAxBSRtIscL_Ctjk4N53lqawYvyWsVWIpjqDUSnfEl9MEcVxX-wfT_heaaRltr-iqj_Uw50B3q5thDF4XdVwpd
+dlxH_bLYc_Ctpi6rz0Lb3ZJvqcrRjFzw_quVAFqg_QFp0yNiLwffh_qWcaRox6-n6Bz7vwSAlJD_Akpm_9Oj8dfD1SMZvqV57HRBN-XkcKqBgLvZiVqXVFZm
+3G
 }
 
+!unquoted procedure $KINESISVIDEOSTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$KinesisVideoStreams", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(KinesisVideoStreams)
-!define KinesisVideoStreams(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
-!define KinesisVideoStreams(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
-!define KinesisVideoStreamsParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
-!define KinesisVideoStreamsParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, KinesisVideoStreams, KinesisVideoStreams)
 
 sprite $LakeFormation [64x64/16z] {
 xTP7ckCm34JX1p01fVlVTqQKGqVAxLs7Vr6Ee81FKJ_Ddp_fParFsm9mFIaY1i_NTw0PD4cP4PbFr2j6Q3YJrvwFpzw1BeCwyFAV0zJGOx83PG2UeMr-5SsW
@@ -329,11 +347,11 @@ U1NtYyfAfzndwPlkCHMwrfocNJfGzgWEboyRhXDfzCj-xiOjPbt7KcS6zClC6VUOvGoT6z3qWNQKdnk6
 TjxrPTbhSJCljQT-f3z__W4
 }
 
+!unquoted procedure $LAKEFORMATION ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$LakeFormation", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(LakeFormation)
-!define LakeFormation(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, LakeFormation, LakeFormation)
-!define LakeFormation(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, LakeFormation, LakeFormation)
-!define LakeFormationParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, LakeFormation, LakeFormation)
-!define LakeFormationParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, LakeFormation, LakeFormation)
 
 sprite $ManagedStreamingforKafka [64x64/16z] {
 xLO5kYCn68Bazxd_UTUIlgbBrdTBlOK94FbQVohUU2FTijRX163henEgG2mF3zasWwxg3RfjlgvFmeo8TJq0hEi5Ogfeg_KDPOUkklVv6elklxrkjfJ0mKhF
@@ -344,11 +362,11 @@ j0RWGCy-ALxN3H3ilg-Ga4OsoV7DJh7x7QGsWXAxp8LWqnoK1t0Eb_j2ala5uwvksB8nS-b4pvcQFcTn
 niFDutpPUbvI_X2yySPd
 }
 
+!unquoted procedure $MANAGEDSTREAMINGFORKAFKA ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$ManagedStreamingforKafka", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(ManagedStreamingforKafka)
-!define ManagedStreamingforKafka(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
-!define ManagedStreamingforKafka(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
-!define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
-!define ManagedStreamingforKafkaParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, ManagedStreamingforKafka, ManagedStreamingforKafka)
 
 sprite $QuickSight [64x64/16z] {
 xTOtZaGX44NH1vHd_-iTNnhHjlI9sjmKdGGVpz6xTyx5_B9d5EFBdY2cTpE-xct6tMQ8NVCQzpCMF-fpalImDpHXD3_g6JBdW1tr0fwnvJ4wUXIzZ24hHmEw
@@ -357,23 +375,21 @@ v2M_SixhkkfNRcYg3LxsbdmzFqLl5jC0Ni_FA7kbmMqPxEWTFMfUpYVB1p2yvXrDhSDYoLFVzGQQyyfO
 klz_sls_RVyVdwDtxpu1
 }
 
+!unquoted procedure $QUICKSIGHT ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$QuickSight", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
+
 AWSEntityColoring(QuickSight)
-!define QuickSight(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, QuickSight, QuickSight)
-!define QuickSight(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, QuickSight, QuickSight)
-!define QuickSightParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, QuickSight, QuickSight)
-!define QuickSightParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, QuickSight, QuickSight)
 
 sprite $Redshift [64x64/16z] {
-xPO5jkH024KVKW9l__kTId_t8ZbpDBTTRf0MoF_3pGrVEQDcnXmFPZoUgDWnN0MlYFe8SbUVZeMQjxveReA5JsxPwO2q6U_hZza4yDmvWa77uNxknr3OHlW1
--puCqz3vfzym-EEXsux_S_mz7_9z_OBD-83u-DZ_uGBedZ_3iH3prdflRv__tFJ97EtZzw-D9BVzfu9Zph6Opr-bhFW7_F05BCN_Z04QftqwrA3duuia5N7U
-nmn1dlNPiV3p-LCXBMi-doyB1YHPyzb5BFYS_o6MV0v07b7NEHHHzGs3Zfxa440po_vSFiIQm0IzdhyeP9bOqeJL_8K2EfdHO3dWrVW1ZJpkf68nQpxJqPa7
-31SRp9Bl0iJhty1nBla6aI_ltVS3cW792pwl-3JebVmP1dYUZy-Cv0K_d-swVtr-T-XFyrlHcN-YFyzltTwVlixlxVs9dFOwlm-UvxTDih8_uXs5_R6mlrxR
-dwzpS_CF
+xTLLeYiv48DX5RX0tlz-9t0OxSvSpl_-9StYRzczUzsLSIghUzkcg-0fKS_cScKNP3v6n1XkWbDMNCi1UVD_dIw0DnSoIFA3Kc0BF62V_tBmsmPoyiDcOgnu
+RNvOwvg713ye16jUFxl-kkQh_E6X6PSU7YMlMlIJdUFrypUoELSzhtLbHcHMatEItFAlgxh5jm5Qnxr33NhSYt0g-hX7jTpW0wUSXpqLChZhcuyrXDpq8MB5
+IpCmTdq20dbu3WMzwmr9Hv0p1H3k-veEY0t01B7h0wAGamHy5cpNKm4jiWQCiUyBshoaE9MxtX6Jbzf5arl-H83cgtQyGGJZi6ye6_BBF0rwo_6p3N0UzsGt
+R_BaKUz8VbAk-FXgluFVfv_ljtAXji_ssvfBfJtijuzJ_h3VbbokmnKlKe_cNW_p_J3WlsNtxlq7
 }
 
-AWSEntityColoring(Redshift)
-!define Redshift(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #693CC5, Redshift, Redshift)
-!define Redshift(e_alias, e_label, e_techn, e_descr) AWSEntity(e_alias, e_label, e_techn, e_descr, #693CC5, Redshift, Redshift)
-!define RedshiftParticipant(p_alias, p_label, p_techn) AWSParticipant(p_alias, p_label, p_techn, #693CC5, Redshift, Redshift)
-!define RedshiftParticipant(p_alias, p_label, p_techn, p_descr) AWSParticipant(p_alias, p_label, p_techn, p_descr, #693CC5, Redshift, Redshift)
+!unquoted procedure $REDSHIFT ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
+%invoke_procedure($SpriteDecorator, "$Redshift", $alias, $description, $label, $technology, $scale, $colour)
+!endprocedure
 
+AWSEntityColoring(Redshift)

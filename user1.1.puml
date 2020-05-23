@@ -1,0 +1,33 @@
+@startuml 
+
+!define AWSPuml ./awslib
+!includeurl AWSPuml/AWSCommon.puml
+
+'pick a decorator by uncommenting one of these
+'!includeurl AWSPuml/SpriteDecorators.iuml!SPRITEDECORATOR_1
+!includeurl AWSPuml/SpriteDecorators.iuml!SPRITEDECORATOR_2
+'!includeurl AWSPuml/SpriteDecorators.iuml!SPRITEDECORATOR_3
+
+!includeurl AWSPuml/Analytics/all.puml
+!includeurl AWSPuml/ApplicationIntegration/all.puml
+!includeurl AWSPuml/ARVR/all.puml
+
+'todo put this in appropriateheader
+!$SpriteDecorator = "$Sprite"+ "Decorator"
+
+'Analytics category/subdir
+$ANALYTICS("sdfsf", $colour="black")
+
+'ApplicationIntegration category/subdir
+$APPSYNC("batch_dyn_0")
+$APPSYNC("batch_dyn_1", "desc", "label", "tech", 1)
+$APPSYNC("batch_dyn_2", "desc", "label", "tech", 2, "brown")
+$APPSYNC("batch_dyn_3", $scale=4)
+$APPSYNC("batch_dyn_4", $colour="pink")
+
+'ARVR category/subdir
+$ARVR("arvr1", $colour="purple")
+
+
+@enduml
+
