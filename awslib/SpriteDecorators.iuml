@@ -58,3 +58,56 @@ $label
 !endprocedure
 
 @enduml
+
+
+
+
+'add the following features
+'---------------------------------------------------
+' "$shape $alias <<$alias>> as" is in form "shape alias <<stereo>> as" where skinparam can be specified for a stereo per https://plantuml.com/skinparam last example
+' Show technology "[ ]" only if technology specified. Uses https://plantuml.com/preprocessing Conditions  
+' Focus parameter: "hi", "lo" or anything else. Changes skinparams to highlight to lolight an icon. uses
+'""== $label\n": "==" is creole syntax for "Large heading" https://plantuml.com/creole
+
+@startuml(id=SPRITEDECORATOR_4)
+
+
+!unquoted procedure $SpriteDecorator($MySprite, $alias, $description="", $label="", $technology="", $scale=1, $colour="blue", $shape="rectangle", $textsize="18", $focus="" )
+
+!if ($focus == "hi")
+    skinparam rectangle {
+        backgroundColor<<$alias>> yellow
+        borderColor<<$alias>> yellow
+        shadowing<<$alias>> true
+        BorderThickness<<$alias>> 20
+    }
+!endif
+
+!if  ($focus == "lo")
+    skinparam rectangle {
+        backgroundColor<<$alias>> gainsboro
+        borderColor<<$alias>> gainsboro
+        shadowing<<$alias>> false
+        
+    }
+!endif
+
+
+!if ($technology == "")
+    $shape $alias <<$alias>> as "
+    == $label\n
+    <color:$colour><$MySprite*$scale></color>
+
+    $description "
+!else 
+    $shape $alias <<$alias>> as "
+    == $label\n
+    <color:$colour><$MySprite*$scale></color>
+    //<size:$textsize>[$technology]</size>//
+
+    $description "
+!endif
+
+!endprocedure
+
+@enduml

@@ -7,9 +7,9 @@ Br97sWt1vkntVRr-dNxtr-W3_9aVsf_7dMBryNlp5mtUXGQqk-lakFt8QNIHMvtxgsxzDHZ5kQifeFEO
 zwqq1p-vh2RqxVv1R9udJO2czfTHtB-KKxdSFzbNkTVtRnSN5ty
 }
 
-!unquoted procedure $APPSYNC ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $APPSYNC ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$AppSync", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$AppSync", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -23,9 +23,9 @@ kVuTl7vxzDfyfFoaVlsqpGddL9UzSTlOdBIjQTMxbPIrB-QsggxwEPI-pPTidazSlm24x77FEQj7VQJy
 2xa5
 }
 
-!unquoted procedure $APPLICATIONINTEGRATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $APPLICATIONINTEGRATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$ApplicationIntegration", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$ApplicationIntegration", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -40,9 +40,9 @@ Rp4KMcUHt1gEOMmBUlzkk1IN5_JjiWGdtlYuoFqiHQtjE93UcyksQgLklRaKIHvlhEMS2Ocg0IH_D5qo
 NfqJMWSVUZlXdJVdIUv5ZNCshoZJWqq_s_glNqs36DZ2OVcg0EgUlWmG8RFL9bJ4yzbVnL_7Vxu3
 }
 
-!unquoted procedure $EVENTBRIDGE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $EVENTBRIDGE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$EventBridge", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$EventBridge", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -58,9 +58,9 @@ vPcvlM6xFpy_vLmSCrT25rs7xCjDRRdPNvvJkSIStAWm3kycCKU6IO0rxDNTv2IxaogtDGmlb1tNPHiy
 dYCk6OC4nTmvzDmpaW34t3dyzjphdmwLScwuU-wTOu3jM-pxugr-3AjlVmh-upq
 }
 
-!unquoted procedure $EVENTBRIDGECUSTOMEVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $EVENTBRIDGECUSTOMEVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$EventBridgeCustomEventBusResource", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$EventBridgeCustomEventBusResource", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -74,9 +74,9 @@ A_BnmDRjCs3rgSLArbci1AWsRRotVsqQAzzI-v3xD5OvWZ4ew-bllKjYbSLNvkTA2SpkwKIiw8TZPkDJ
 Ic5JsCEdFs6pGJkQqXgIJF34b8a5PitF2I8kkXfb6K7rSVf2oZegOqMq_00qKgxUmv1Y7walab9-3__ySmi
 }
 
-!unquoted procedure $EVENTBRIDGEDEFAULTEVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $EVENTBRIDGEDEFAULTEVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$EventBridgeDefaultEventBusResource", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$EventBridgeDefaultEventBusResource", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -92,9 +92,9 @@ Ln9GMT3SydAktzN9wa-vkiomv6naghErbUQKy-gJMl9VShdPyqnWWYl6hMkLHb0bDcc8pMzdfmBWYBiZ
 k_M9VTxkTdaEGFbBIIYUnHcyxZdYThlRIyh_0g2JO0IRAr9diA1d0OqjawPdHIK6V9-0tYxk_T4Uef1e1BWlTY9XPJByz5JTfV207vy8Y8_uCUJulVeB
 }
 
-!unquoted procedure $EVENTBRIDGESAASPARTNEREVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $EVENTBRIDGESAASPARTNEREVENTBUSRESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$EventBridgeSaasPartnerEventBusResource", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$EventBridgeSaasPartnerEventBusResource", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -108,9 +108,9 @@ AMooY-pAJPErCiOrDhQWjQUKFpDp_eIz-woKFpDp_aJQ4ajsU_DdGSeakzg5yW7rBv1xzQlCw_hTBUO-
 dH-zy-jFvU7X3G
 }
 
-!unquoted procedure $EXPRESSWORKFLOWS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $EXPRESSWORKFLOWS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$ExpressWorkflows", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$ExpressWorkflows", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -125,9 +125,9 @@ igxSFZQU3_5onU_oRtXbRlBFQYl_ji-_3753ujn_8PWBLY-a0_eqVXdvF7uAUDQ6d76BXAO2eErn_iJ8
 jJWU82PP4L5xfefsNi46M6xbKYTIKLSqJ-f0nzSUkL6sr1UUVzyolcDPQVIJElUVcA2LJoAobdeokrNe6JpVN-ocwiZQdeSytv_QKX_7w_tjo-wFloT_-Sk_
 }
 
-!unquoted procedure $MQ ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $MQ ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$MQ", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$MQ", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -142,9 +142,9 @@ pCFVvzy1dJTYpZ_BmFl-NI56zNF_3d8plx5Ce_cptyQasNVeV6mHjO_mNxw_0pxy_1g_m5i_j_OeOE_N
 GdGnOZC27MTTzl2Ppz21JGMw_D2P2JB6l49sdnAyWhQ3B85MBmWSM6-HnKt1fJgL9Rht6A1tzmVipUVlohVSNmOX05WzfllJpxs_xU-F_oRllFCH
 }
 
-!unquoted procedure $SNS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SNS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SNS", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SNS", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -160,9 +160,9 @@ KS7l8rc68wnI09dp_P_h_ZjYTJ_0t_rtWgZY0MGQZh3CVVsd0Oi0jaCP0daM2Z2UZMQFq9_J--VUFybl
 gJgzVwiUsZ__--T__-0RyT3--GK
 }
 
-!unquoted procedure $SNSEMAILNOTIFICATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SNSEMAILNOTIFICATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SNSEmailNotification", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SNSEmailNotification", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -177,9 +177,9 @@ LSWCXLwYGMQWeen7_oGP00l0PwkC-cPe5GrMCRP9-Z4QDJbV_m5uHFYZUGIzGc4L1gtea8hBA9FowCy5
 k07trUllFfz_Dw0LWCtG2e5SGkVCPTJdzSzSVN-E_l7wHWQcAEWLEaM3LdH8nJX6_T8_jLm3NyOvytVqp__-YLXzVoDkxP___VE_V_14tDe_lm
 }
 
-!unquoted procedure $SNSHTTPNOTIFICATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SNSHTTPNOTIFICATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SNSHTTPNotification", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SNSHTTPNotification", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -191,9 +191,9 @@ xPHLWiOm28GdYjp_m1lRtnvJR_agSGK61sDadYO3SAegKvI13d2YJ5EmIXil4LD4MJJUnjlunVwxD7uM
 gFpL8KiX8DOa8jGamsb9wDMLHTMryPo0J4GPI3LnY5Jmy1z9XAjzFhfo7y_p_iCEot5kmKYBtsNtjvI5_hFOVvV6pvBuVR3-cFwO_fZ-cFuOVm
 }
 
-!unquoted procedure $SNSTOPIC ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SNSTOPIC ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SNSTopic", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SNSTopic", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -208,9 +208,9 @@ zz9ln_e3iEp1PzVF1e-CR10x-PNiHNwvpO_tyYk44BZAv_kJMYp-O7_fP7_Fxv_Okt-KuyyepRyKbX-K
 xIVwjTymsu_34uo2KG
 }
 
-!unquoted procedure $SQS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SQS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SQS", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SQS", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -224,9 +224,9 @@ RTx7vIUovYT2O945LFcb-TNFNxI-UDGRq5h3r1ZpCVc1kIshOiwl9TCSynlpgsz__VZTKAb_2ltxY_Eh
 iJf_hSwVwte
 }
 
-!unquoted procedure $SQSMESSAGE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SQSMESSAGE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SQSMessage", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SQSMessage", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -239,9 +239,9 @@ qDVUmT2Hro3yjJUGgBcl867BdlJCEvbvECYsx1i9H-AbWkXBleEealh3BUIrbyF3fLxtt9RkRo2R9fvn
 jK_llzCxU3l-4xxEgnrsYfaSJZNznFclwPlIJfvlpg6CWJTp78gglZbQ_dLcPhO
 }
 
-!unquoted procedure $SQSQUEUE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $SQSQUEUE ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$SQSQueue", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$SQSQueue", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -254,9 +254,9 @@ tcELVsw-5Ne2q9EYr_86q1ZAF4-odxTfRoKkCTWG8wzvjmLVpnSPUyqh5cpzkixmQrxhXApdepqhg9FJ
 pc-uv-xFzz__xFkLVJ-pxtVc_yZ_N_d_C_z_Vt_zaQ-VylLRldxCrw_Vx-Rc7W
 }
 
-!unquoted procedure $STEPFUNCTIONS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264")
+!unquoted procedure $STEPFUNCTIONS ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$StepFunctions", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$StepFunctions", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 

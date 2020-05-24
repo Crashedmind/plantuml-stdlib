@@ -6,8 +6,8 @@ w5d_h6yBJ-hR_W9wMCSTNf0OiUFtVCUj23f-smjojmbSNiR_7BwRkz-dN7l-k7pz-IyXWC9cX13ap3Cu
 KU_sc7b77-V1mHEFioLN-0iz0m
 }
 
-!unquoted procedure $ANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$Analytics", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $ANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$Analytics", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 
@@ -22,8 +22,8 @@ _y8iwdbhdoieYulJKGdysE64ziE9BkN1VWPvjbcUgHNShixEV44xWZ42F5wu2G5anxayEFDfxmbjU4Fi
 _lEVBm
 }
 
-!unquoted procedure $ATHENA ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$Athena", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $ATHENA ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$Athena", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(Athena)
@@ -36,8 +36,8 @@ S1MDbJVbe_PG_eHa2upt28fWguELhbs2N16KWEkbBTqbuFn-dpo7xnMK0Ffkg12C9RTRq4u0gNcu2G5C
 z1M1m_kAG91zKg3TRU3kim9Y0cMVf9H0KdsUgke_XZjt7W4
 }
 
-!unquoted procedure $CLOUDSEARCH ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$CloudSearch", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $CLOUDSEARCH ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$CloudSearch", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(CloudSearch)
@@ -49,8 +49,8 @@ YxggdlOydeUAFse1Qcz8qNe5IiM2eOeKghBV_ubB0FDq_BIGSJu_d_w7dZyf9lRd_UVCzJSTFuuglzVw
 Tm
 }
 
-!unquoted procedure $CLOUDSEARCHSEARCHDOCUMENTS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$CloudSearchSearchDocuments", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $CLOUDSEARCHSEARCHDOCUMENTS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$CloudSearchSearchDocuments", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(CloudSearchSearchDocuments)
@@ -62,8 +62,8 @@ nfBHEaM6_f7to74mzSNT1SGZEaKsZj-mwH0P-yV_79qZs_skGVzVlqQVlh_tNtxzQOte57cZ-ryZGc6L
 ri7J8qu0oElawP6CoDgMSSdiThlV
 }
 
-!unquoted procedure $DATAPIPELINE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$DataPipeline", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $DATAPIPELINE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$DataPipeline", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(DataPipeline)
@@ -80,8 +80,8 @@ D0ItsUll7F5HaZp8lM_rTyfuFpBU3c_fRv-_hFmjlBjTuUqxypFqzNX-7vUi8NIF9esmNPDnlc5edBle
 VZLv-XACUVlj-pCEz9lhFm
 }
 
-!unquoted procedure $DATALAKERESOURCEICON ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$DatalakeResourceIcon", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $DATALAKERESOURCEICON ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$DatalakeResourceIcon", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(DatalakeResourceIcon)
@@ -94,8 +94,8 @@ Y_lNZX_NjjiJ8sXHOGq8tyVxmDjuylbOLQXa5bOytrY5BVdXGT2lyOFzpFwCNq2omp-8dujFutmaoEZj
 wsTz_Qxk7-Nzgxv_LlVlulcXS7ufdP-AvxVQ-P5gvzT_F3_3w5_dXrQQd_vdVjkhL-VNulpy2_e6
 }
 
-!unquoted procedure $DENSECOMPUTENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$DenseComputeNodeResource", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $DENSECOMPUTENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$DenseComputeNodeResource", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(DenseComputeNodeResource)
@@ -108,8 +108,8 @@ W2DFk1MjrPiwysuNykGfhnp6Z3FFDnL42I-oQSSX_jcXLt6KX8rxB0q43Ff8TloO9R6OnkREoIFDfbm0
 BVHFhNyBwqTv_Qgld_Nrkxf_bFUl-lvPtR-BvuV2-QLqVYgUtshdnruxl_xY-Hb6lpe_zDByz3lpsrQZEhyMv-T_e3y
 }
 
-!unquoted procedure $DENSESTORAGENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$DenseStorageNodeResource", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $DENSESTORAGENODERESOURCE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$DenseStorageNodeResource", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(DenseStorageNodeResource)
@@ -122,8 +122,8 @@ KMVznvOF-S_qE1K_rgWHlsAeD8awaJ-XF4mu8RjZGEjK_eRna17Lq2ADu6Vh9nMuzx4Uut2gVhj2NG2h
 -dSoDkZo_2XhBB4slzRdPpBy5y_l-Vwmlh-ixqyD-l7zxUFxu_h--eVYmeLF
 }
 
-!unquoted procedure $EMR ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMR", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMR ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMR", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMR)
@@ -136,8 +136,8 @@ VsmszGEWwX_ezLyJvK_oOmw-wsEMYm34WBGxAjU7Vb7oF8aPlR-T3_sI5wpFmjT-V7YT9XtxlzR-y_4x
 4ZarW6pZ_Au7P5EccqgiLSl6_N5PeiWRk96sSNzTP861TAMT-xCWqTRgJLEXZVlxF7uuZr_EuwVp-EqyVZoFNty_VeRJl-OFV9G__K_-DYAd-UjX_lmBl04
 }
 
-!unquoted procedure $EMRCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMRCluster", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMRCluster", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMRCluster)
@@ -149,8 +149,8 @@ _URotSptvCFsl8dej_RVBycV-HIc_EhzJnm3hv4_QF_pQVzNqPPawXciCY_tNn8fyRAUtBdHM5l-hDeI
 3Qbzt6cKSYabfwVJgnaJKGTGQ0LsB7cXLR9OYnCTwtHw0m
 }
 
-!unquoted procedure $EMRENGINE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMREngine", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRENGINE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMREngine", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMREngine)
@@ -164,8 +164,8 @@ uTFzrJ-iZti_SfrTHoUPCsoVCI3IRCxCf_E3t4TdrB4GaG6ZV93IkMStToyvMWsBT2161C36rDWFTFou
 ko7nc1CtDjnzsDlbzVIPpA8anoSaTKN7fupPPsduMR_zzWS
 }
 
-!unquoted procedure $EMRENGINEMAPRM3 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMREngineMapRM3", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRENGINEMAPRM3 ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM3", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMREngineMapRM3)
@@ -179,8 +179,8 @@ ARZhpmO3RtY_xw_r6Dzx_nawtVQ6T-LRnv_uxF6lVVxKPwMuAfQgzjRRsiDiEwbSvKqVSoY7u_zE8a_k
 AZ86fbcHXMaiy3ObJ-ja-IHuG8jd9NZ68b-4uY_ptt_V
 }
 
-!unquoted procedure $EMRENGINEMAPRM5 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMREngineMapRM5", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRENGINEMAPRM5 ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM5", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMREngineMapRM5)
@@ -194,8 +194,8 @@ lEVp_ceeySfVqSFcv_htnlQqTxoLr4BV_G-jVxol_vLrblFP-kiHr_KNcViVzGVvOe-cB_CFtbTIlTX-
 ucPCCvlZxV9w-awoACdm2K5TqV0fC_ii1dxMBx_y1W
 }
 
-!unquoted procedure $EMRENGINEMAPRM7 ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMREngineMapRM7", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRENGINEMAPRM7 ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMREngineMapRM7", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMREngineMapRM7)
@@ -207,8 +207,8 @@ osf0v0N_IQU0uAwPxnfaWHT_icafcFao5rsTOBSgnVZx3OryXBKakruW8CjDzOWFPeiNW34EEE1RXEyv
 _R9ifoOVu0dxgVYn-QFE3tj-oVj3tr-YVj3rYw-VVFrc-mVTl_Z-oVPlSduWvXTgVYBdDsv-56v-_U7y39MVxW-9sfz-ix-Dokp-IkxF7z0V
 }
 
-!unquoted procedure $EMRHDFSCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$EMRHDFSCluster", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $EMRHDFSCLUSTER ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$EMRHDFSCluster", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(EMRHDFSCluster)
@@ -221,8 +221,8 @@ Y3sVw8C5TkSC87Qzn88QcaL5IIc0sFPY0ufvk5K0JPeh6B7ffMYODI-mQmLzrsiml7jGr-bm8CHDturQ
 _ylh78p-ET-yz-uLZ3Lu-7eEDiGy1uo2_9GFh9XOaLWTYFKOwlfayIflWxc6TSJUMkWlwN__-m
 }
 
-!unquoted procedure $ELASTICSEARCHSERVICE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$ElasticsearchService", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $ELASTICSEARCHSERVICE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$ElasticsearchService", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(ElasticsearchService)
@@ -234,8 +234,8 @@ TJuXcFp6XF29Uo2OVCRWj-qyKuAy7UUo-uKDJ3wdS1uSoeO2ybmzYXq1FTSHxBZsFJ7O59ZRDX7ztZFz
 IDNnOKCEI1wVaUmeXMGEQB79yMBi2y3v4PdySxszVG8
 }
 
-!unquoted procedure $GLUE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$Glue", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $GLUE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$Glue", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(Glue)
@@ -249,8 +249,8 @@ RuX63ho6WsiTV_S5hCTX-_hO0RRxILJ_2N60-Pc_THzGWt7dJsrlGk_zQEtd-7B5IHt2PFlPdDXt5IE9
 EtVTerXwr7EVLN4hr06R0I77q37hPxIX49cQfo2Ecc7iCsLLHYoGG-wwf15Rl7LTgtMtyazeW6UqP0PuUqXzSyqyIFqnuYyVyZbg0R66j9tt
 }
 
-!unquoted procedure $GLUECRAWLERS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$GlueCrawlers", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $GLUECRAWLERS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$GlueCrawlers", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(GlueCrawlers)
@@ -262,8 +262,8 @@ VIOXqPWGOJtPzCSvQe7hkOuF_dVJIwUMNmNMU86T_qE1oC2sNmNM-AvV1N29x_jLO8bl--i6AhxlLm5R
 VXNWJBxC1qy7q0oyqBVouMtzD8tBVSc9NUh3i0WNwFeDNjrdts7tFN-sBIz-_M4RzBxxyostdNzSvbz__NhzzVErr-z7
 }
 
-!unquoted procedure $GLUEDATACATALOG ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$GlueDataCatalog", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $GLUEDATACATALOG ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$GlueDataCatalog", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(GlueDataCatalog)
@@ -275,8 +275,8 @@ kGRGOXxESyUb0j1OJsEG7vUf191whb7G6_Do0G0IyyXtnBZDgvIT-N0HneGTH7mWNYQkyuJ9_3kBo-Mo
 E-VNhNvagNx2FrQ_8XAz_j7iNr7j_acQlx9_5ztD3_9JyqkgCS3bvkZS_9Pp-mEjaPzMTvcyZhXg5kHlsFySth3lxw-_7v_un5S
 }
 
-!unquoted procedure $KINESIS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$Kinesis", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $KINESIS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$Kinesis", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(Kinesis)
@@ -289,8 +289,8 @@ qKyY8blyxVmn0fvz1n6u_NVpjyQpxwFzBQMzyYs-crbyv3k1_77y4XSs_cxzzDMNf8s_NRzvAbA8Y2jX
 R_RlhV_k_41rtY-YvKa-uU_FJufitov-80OT-Blpcq91pZ23EC4LwY0zzlt8FsJJlrSdYMx9ZwdnM_2V_tm1
 }
 
-!unquoted procedure $KINESISDATAANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$KinesisDataAnalytics", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $KINESISDATAANALYTICS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$KinesisDataAnalytics", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(KinesisDataAnalytics)
@@ -302,8 +302,8 @@ h7hi3qFI8tBXPRyOlGacadpabo5JP2_tUYs0uewNV5MHL_sK1mD8djn_bzRNaZ6gcC77VkgSFwZvYpwv
 joVd-i_zg-PvyF1hvnfczbyp1C73vrUZ1ctlhPzyViFd_N6tFzqMuiGB49sVkZ_pz-vl0lpDzql0tto_0tRL_oV_f4zddHStRlm3
 }
 
-!unquoted procedure $KINESISDATAFIREHOSE ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$KinesisDataFirehose", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $KINESISDATAFIREHOSE ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$KinesisDataFirehose", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(KinesisDataFirehose)
@@ -317,8 +317,8 @@ N23EgQYemTyP3d-wUDarYpxkXchmDzPl0_hea4rIPTCOiWFYSVE-uX0_5cFLB40LOEWEg3VshrOa4yfD
 R1l8cVD31n0KR9IENV2kahld5uNMg8ai0-pS-MdsH5qcK0VizFdD03HpwmfeV71-B1DCwdoil1wVNpFSe_ZVylNr2m
 }
 
-!unquoted procedure $KINESISDATASTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$KinesisDataStreams", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $KINESISDATASTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$KinesisDataStreams", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(KinesisDataStreams)
@@ -332,8 +332,8 @@ dlxH_bLYc_Ctpi6rz0Lb3ZJvqcrRjFzw_quVAFqg_QFp0yNiLwffh_qWcaRox6-n6Bz7vwSAlJD_Akpm
 3G
 }
 
-!unquoted procedure $KINESISVIDEOSTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$KinesisVideoStreams", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $KINESISVIDEOSTREAMS ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$KinesisVideoStreams", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(KinesisVideoStreams)
@@ -347,8 +347,8 @@ U1NtYyfAfzndwPlkCHMwrfocNJfGzgWEboyRhXDfzCj-xiOjPbt7KcS6zClC6VUOvGoT6z3qWNQKdnk6
 TjxrPTbhSJCljQT-f3z__W4
 }
 
-!unquoted procedure $LAKEFORMATION ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$LakeFormation", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $LAKEFORMATION ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$LakeFormation", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(LakeFormation)
@@ -362,8 +362,8 @@ j0RWGCy-ALxN3H3ilg-Ga4OsoV7DJh7x7QGsWXAxp8LWqnoK1t0Eb_j2ala5uwvksB8nS-b4pvcQFcTn
 niFDutpPUbvI_X2yySPd
 }
 
-!unquoted procedure $MANAGEDSTREAMINGFORKAFKA ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$ManagedStreamingforKafka", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $MANAGEDSTREAMINGFORKAFKA ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$ManagedStreamingforKafka", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(ManagedStreamingforKafka)
@@ -375,8 +375,8 @@ v2M_SixhkkfNRcYg3LxsbdmzFqLl5jC0Ni_FA7kbmMqPxEWTFMfUpYVB1p2yvXrDhSDYoLFVzGQQyyfO
 klz_sls_RVyVdwDtxpu1
 }
 
-!unquoted procedure $QUICKSIGHT ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$QuickSight", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $QUICKSIGHT ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$QuickSight", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(QuickSight)
@@ -388,8 +388,8 @@ IpCmTdq20dbu3WMzwmr9Hv0p1H3k-veEY0t01B7h0wAGamHy5cpNKm4jiWQCiUyBshoaE9MxtX6Jbzf5
 R_BaKUz8VbAk-FXgluFVfv_ljtAXji_ssvfBfJtijuzJ_h3VbbokmnKlKe_cNW_p_J3WlsNtxlq7
 }
 
-!unquoted procedure $REDSHIFT ($alias, $description="", $label="", $technology="", $scale=1, $colour=693CC5)
-%invoke_procedure($SpriteDecorator, "$Redshift", $alias, $description, $label, $technology, $scale, $colour)
+!unquoted procedure $REDSHIFT ($alias, $description="", $label="", $technology="", $scale=1, $colour="693CC5", $shape="rectangle", $textsize="12", $focus="")
+%invoke_procedure($SpriteDecorator, "$Redshift", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 !endprocedure
 
 AWSEntityColoring(Redshift)

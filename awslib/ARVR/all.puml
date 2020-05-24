@@ -5,9 +5,9 @@ xTG3WiH054NHzutP_th7RHkfsmnEdE1HZMZsIn0_DGDuuVsZJwnMVJ-57txuuKrsP4Tv1mjl3Nw43qZl
 TO4l0gZEzufCsDd-rnhoN2zKtKLoWk-bkHq--vabr0TypEy_WiwEmc9K7FATAd_fVDwOZygdU_uEF_pmLgUMA_wChkV1SavCc4LdXNVe2m
 }
 
-!unquoted procedure $ARVR ($alias, $description="", $label="", $technology="", $scale=1, $colour=CC2264)
+!unquoted procedure $ARVR ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$ARVR", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$ARVR", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
@@ -22,9 +22,9 @@ y4EnAVcdyy4Xo6H_7g-02Se1oIVprMqKX_YdW9_AEtjtdVlNiykVmAS0Tjd_1exTl8wS3Ju5q5sydGux
 AHy0nu8Ue-gMJrFBOgjTKr_pYfyChlaOjDhmay6vj0xaWvyFxdKOyiYlZSFQGGZIVMbSrhaa46WOf-dmcOS1a3mPjp9mFqqf77FZ-7JZ-Y76UQvV_Uel
 }
 
-!unquoted procedure $SUMERIAN ($alias, $description="", $label="", $technology="", $scale=1, $colour=CC2264)
+!unquoted procedure $SUMERIAN ($alias, $description="", $label="", $technology="", $scale=1, $colour="CC2264", $shape="rectangle", $textsize="12", $focus="")
 
-%invoke_procedure($SpriteDecorator, "$Sumerian", $alias, $description, $label, $technology, $scale, $colour)
+%invoke_procedure($SpriteDecorator, "$Sumerian", $alias, $description, $label, $technology, $scale, $colour, $shape, $textsize, $focus)
 
 !endprocedure
 
